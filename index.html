@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Decodificador</title>
+</head>
+
+<body>
+    <header>
+        <img src="/imagens/logo-alura.png" class="logo" alt="Logo Alura com incial da letra A">       
+    </header>
+    <main class="main">
+        
+        <section>
+            <textarea class="input-texto" id ="inputTexto" cols="50" rows="8" placeholder="digite seu texto aqui"></textarea>
+
+            <div>
+                <h6 class="informacao"><img src="/imagens/Vector.png" alt="Sinal da exclamação"> Digite apenas letras maiúsculas e minúsculas</h6>
+            </div>
+    
+            <div class="botoes">
+                <button class="encriptar" onclick="btnEncriptar()">
+                    Criptografar
+                </button>
+                <button class="desencriptar" onclick="btnDesencriptar()">
+                    Descriptografar
+                </button>
+                <button class="btnCopia" id = "idBtnCopiar" onclick="copiar()">
+                    Copiar Texto
+                </button>   
+            </div>
+
+        </section>
+       
+
+        <section>
+            <textarea class="mensagem" id="mensagemCopiada" cols="50" rows="8" ></textarea>
+            <div id="divTexto">
+                <p class="mensagem1">Nenhuma mensagem encontrada</p>
+                <p class="mensagem2">Digite um texto que você deseja<br>criptografar ou descriptografar.</p>
+            </div>
+            
+        </section>
+
+    </main>
+    
+    <footer>
+        &copy; William Lima - Projeto Decodificador Alura
+    </footer>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
