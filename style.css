@@ -67,7 +67,7 @@ body{
     position: absolute;
     margin-top: 5%;
     margin-left: 15%;
-    background: url(/imagens/lupa.png);
+    background: url(lupa.png);
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: 1rem;
